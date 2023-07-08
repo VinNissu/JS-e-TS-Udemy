@@ -88,3 +88,49 @@ function soma(x, y) {
 
 console.log(soma(2,2));
 console.log(soma(1,1));
+
+
+
+
+// função soma com valor definito caso não entre com um
+function soma(x = 'entre com um valor : \n', y = 'entre com outro valor' ) {
+    let resultado = x + y;
+    return resultado
+
+}
+console.log(soma())
+
+
+
+
+
+
+function soma(x = 'entre com um valor : \n', y = ' \nentre com outro valor' ) {
+    let resultado = x + y;
+    return resultado
+
+}
+console.log(soma(1))
+
+
+
+
+
+// função anonima
+let soma = function(x,y){ 
+    let resultado = x + y 
+    return resultado};
+console.log(soma(5,5))
+
+
+
+// jogar uma função dentro de uma variável
+// função anonima
+let raiz = function(x) {
+    let resultado = Math.sqrt(x)
+    return resultado
+}
+console.log(raiz(25))
+
+
+
