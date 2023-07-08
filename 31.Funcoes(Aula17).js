@@ -29,16 +29,23 @@ saudacao("Maria Cecilia")
 
 
 
-
 //retornando valor de função    
+
 function saudacao (nome){
     console.log(`Bom dia ,${nome}!`)
     return nome;
 }
-saudacao("Olá");
+saudacao("valor 1");
+let variavel = saudacao('Vinicius')
+console.log(variavel, "console.log1")
 
-let variavel = saudacao ("Luiz")
-console.log(variavel, " |valor retornado pelo return dentro da função")
+
+// saudacao("valor2");
+// variavel = saudacao('Cecilia');
+// console.log(variavel, "console.log2")
+// console.log(variavel, " |valor 3 retornado pelo return dentro da função")
+
+
 
 
 
