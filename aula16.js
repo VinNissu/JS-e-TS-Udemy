@@ -48,7 +48,7 @@ console.log(alunos.length)
 
 
 
-
+//
 //declarando variável em array 
 let alunos = ['Vinicius','Maria-Celilia','João'];
 console.log(alunos.length,         "antes da inserção")
@@ -57,3 +57,82 @@ alunos[alunos.length] = 'Fabio';
 alunos[alunos.length] = 'Luiza';
 alunos[alunos.length] = 'Pedro';
 console.log(alunos.length,         "depois da inserção")
+
+
+
+
+
+//colocando elemento no final do array
+//                 0      1      2
+let alunos = ['Luiz','Maria','João'];
+alunos.push('Luiza') //adiciona no final
+console.log(alunos)
+
+
+
+
+
+
+//colocando elemento no começo do array
+let alunos = ['Luiz','Maria','João'];
+alunos.unshift('Luiza') // adiciona no começo
+console.log(alunos)
+
+
+
+//removendo do fim do array
+let alunos = ['Luiz','Maria','João'];
+alunos.pop() // remove do final
+console.log(alunos)
+
+
+
+//salvando o elemento que foi removido do array
+let alunos = ['Luiz','Maria','João'];
+let removido /*recebendo oque vai ser removido*/ = alunos.pop() // remove do final
+console.log(removido)
+console.log(alunos)
+
+
+
+
+
+//Apagando um indice (1 = Maria)
+let alunos = ['Luiz','Maria','João'];
+delete alunos[1];
+console.log(alunos)
+console.log(alunos[50])
+
+
+
+
+
+//Fatiando a array
+//              0       1       2       3
+let alunos = ['Luiz','Maria','João','Vinicius'];
+let fatia = alunos.slice(0,3)
+console.log(fatia)
+
+
+
+//Fatiando a array pelo negativo        
+//              0       1       2       3
+let alunos = ['Luiz','Maria','João','Vinicius'];
+let fatia = alunos.slice(0,-3)
+console.log(fatia)
+
+
+//Comando para saber o tipo do elemento
+console.log(typeof alunos);
+
+
+//Sabendo se uma instancia é Array
+console.log(alunos instanceof Array, "Antes de ser numero");
+
+
+alunos = 123;
+console.log(alunos)
+console.log(alunos instanceof Array, "depois de ser numero");
+
+
+
