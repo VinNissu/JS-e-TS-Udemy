@@ -120,3 +120,12 @@ console.log(fatia)
 let alunos = ['Luiz','Maria','João','Vinicius'];
 let fatia = alunos.slice(0,-3)
 console.log(fatia)
+
+
+//Comando para saber o tipo do elemento
+console.log(typeof alunos);
+
+
+
+
+
