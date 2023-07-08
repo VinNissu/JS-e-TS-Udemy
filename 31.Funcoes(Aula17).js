@@ -134,3 +134,10 @@ console.log(raiz(25))
 
 
 
+
+// arrow function
+
+let soma = (x,y) => `A soma é ${x + y}` ;
+console.log(soma(5,5))
+
+console.log(soma())
