@@ -126,6 +126,10 @@ console.log(fatia)
 console.log(typeof alunos);
 
 
+//Sabendo se uma instancia é Array
+console.log(alunos instanceof Array, "Antes de ser numero");
 
 
-
+alunos = 123;
+console.log(alunos)
+console.log(alunos instanceof Array, "depois de ser numero");
