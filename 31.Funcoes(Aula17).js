@@ -53,8 +53,8 @@ function soma(x, y) {
     console.log(resultado)
     return `retorno da função${soma}`
 }
-
 soma(10,10);
+
 
 
 
@@ -71,3 +71,20 @@ soma(5,5)
 soma(10,10)
 console.log(soma(20,20));
 
+
+
+
+
+
+
+
+
+//função soma com return concatenado
+function soma(x, y) {
+    let resultado = x + y;
+    console.log('antes do resultado...')
+    return `'R: a soma é':${resultado}`;
+};
+
+console.log(soma(2,2));
+console.log(soma(1,1));
