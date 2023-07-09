@@ -140,4 +140,27 @@ console.log(raiz(25))
 let soma = (x,y) => `A soma é ${x + y}` ;
 console.log(soma(5,5))
 
-console.log(soma())
+
+
+
+
+function multiplicacao (x,y) {
+    resultado = x*y;
+    console.log(resultado, "O que o Braga ganha.")
+    return resultado
+}
+
+multiplicacao(5,5)
+multiplicacao(100,10)
+
+
+
+//arrow function multiplicacao
+
+let multiplicacao = (x,y) => `Multiplicacao é ${x*y}`
+console.log(multiplicacao(10,10));
+
+
+
+
+//
