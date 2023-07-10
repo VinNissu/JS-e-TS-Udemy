@@ -69,11 +69,10 @@ console.log(b)
 
 
 
-
+//copiando valores de uma array sem apontar para mesmo lugar
 let a = {
     nome: 'Vinicius',
     sobrenome: ' Luiz',
-
 };
 
 let b = {...a};
@@ -81,3 +80,5 @@ console.log(b)
 
 a.nome ='NISSU'
 console.log(a,b)
+
+
