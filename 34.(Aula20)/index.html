@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercícios</title>
+    <title>Testing</title>
 </head>
 <body>
-    <form class="form" method="get">
-    <p>Nome: <input type="text" class="nome"></p>
-    <p>Sobrenome: <input type="text" class="sobrenome"></p>
-    <p>Peso: <input type="text" class="peso"></p>
-    <p>Altura: <input type="text" class="altura"></p>
-    <button>Enviar</button>
-    </form>
 
-    <div class="resultado">
-    </div>
+    <!--1-Aqui está o "FORM" onde o JS está pegando-->
+    <form class="form" method="get"><!--O Method precisa ser "get"-->
+    <p>Nome: <input type="text" class="nome"></p><!--O JS está puxando pelo class="nome"-->
+    <p>Sobrenome: <input type="text" class="sobrenome"></p><!--O JS está puxando pelo class="sobrenome"-->
+    <p>Peso: <input type="text" class="peso"></p><!--O JS está puxando pelo class="peso"-->
+    <p>Altura: <input type="text" class="altura"></p><!--O JS está puxando pelo class="altura"-->
+    <button>Enviar</button>
+    </form> 
+
+
+    <div class="resultado"></div> <!--Através desta class"resultado" O javascript consegui inserir c/ o innerHTML-->
+
+
+
+    <div class="testeEvento"></div>
+    
     <script src ="js/34.(Aula20).js"></script>
 </body>
 </html>
